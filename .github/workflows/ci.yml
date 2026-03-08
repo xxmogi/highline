@@ -48,6 +48,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: highline-${{ matrix.platform == 'windows/amd64' && 'windows-amd64' || matrix.platform }}
           path: dist/
           retention-days: 7
