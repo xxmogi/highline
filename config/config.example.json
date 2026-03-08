@@ -1,0 +1,18 @@
+{
+  "shell": "bash",
+  "theme_name": "monokai",
+  "segments": ["time", "path", "git", "kube", "newline", "prompt"],
+  "path": {
+    "max_depth": 4
+  },
+  "time": {
+    "format": "15:04"
+  },
+  "theme": {
+    "path":   { "fg": 0,  "bg": 10 },
+    "git":    { "fg": 0,  "bg": 11 },
+    "kube":   { "fg": 0,  "bg": 5  },
+    "prompt": { "fg": 15, "bg": 0  },
+    "time":   { "fg": 0,  "bg": 7  }
+  }
+}
